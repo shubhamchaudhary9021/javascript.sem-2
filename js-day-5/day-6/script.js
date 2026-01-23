@@ -28,6 +28,7 @@ value2();
 
 Map(function(){ 
 
+    console.log("anonymous function")
 })
 
 // self invoking function
