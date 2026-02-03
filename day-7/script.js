@@ -1,18 +1,18 @@
 //objective
-//let user={
-    //fullname:"Shubham",
-    //address:{
-         //city:"Gurugram",
-         //state:"Haryana",
+let user={
+    fullname:"Shubham",
+    address:{
+         city:"Gurugram",
+         state:"Haryana",
 
-   // },
-   // mobileno:123456789,
-    //favcolor:["black","white","orange"],
-    //demo:function(){
-       // return "demo function"
-   // }
+   },
+   mobileno:123456789,
+    favcolor:["black","white","orange"],
+    demo:function(){
+       return "demo function"
+   }
 
-//}
+};
 //console.log(user.fullname,user.mobileno,user.favcolor[1], user.address.state,user.demo());
 
 //console.log("My name is "+user.fullname+". My fav color is "+user.favcolor[0])
@@ -24,6 +24,10 @@
 //object method
 
 //object.keys(variable name)
+// const user = {
+//     name: "shubham",
+//     role:"student",
+// };
 
 console.log(Object.keys(user));
 
