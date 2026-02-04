@@ -10,7 +10,7 @@
 // for(let i=0;i<query2.length;i++){
 //     query2[i].textContent="ojwk kdn d owknwkajs"
 // }
-const para = document.querySelectorAll("p");
+const para = document.getElementsByTagName("p");
 for(let i=0;i<para.length;i++){
     if((i+ 1)%2===0){
     para[i].style.color="blue"
@@ -18,3 +18,4 @@ for(let i=0;i<para.length;i++){
         para[i].style.color="green"
     }
 }
+para[para.length-1].style.fontWeight="bold"
